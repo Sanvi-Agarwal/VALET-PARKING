@@ -67,7 +67,7 @@ function up() {
         greencar_y = greencar_y - 10;
         console.log("When UP ARROW is Pressed, x=" + greencar_x + " y=" + greencar_y);
         uploadBackground();
-        uploadgreencar;
+        uploadgreencar();
     }
 }
 
@@ -77,7 +77,7 @@ function down() {
         greencar_y = greencar_y + 10;
         console.log("When DOWN ARROW is Pressed, x=" + greencar_x + " y=" + greencar_y);
         uploadBackground();
-        uploadgreencar;
+        uploadgreencar();
     }
 }
 
@@ -87,7 +87,7 @@ function left() {
         greencar_x = greencar_x - 10;
         console.log("When LEFT ARROW is Pressed, x=" + greencar_x + " y=" + greencar_y);
         uploadBackground();
-        uploadgreencar;
+        uploadgreencar();
     }
 }
 
@@ -97,6 +97,6 @@ function right() {
         greencar_x = greencar_x + 10;
         console.log("When RIGHT ARROW is Pressed, x=" + greencar_x + " y=" + greencar_y);
         uploadBackground();
-        uploadgreencar;
+        uploadgreencar();
     }
 }
